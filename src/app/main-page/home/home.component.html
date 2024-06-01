@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wooden Furniture Products</title>
+</head>
+<body>
+  <app-slideshow></app-slideshow>
+  <!-- <div class="container">
+    <app-slideshow></app-slideshow>
+  </div> -->
+  <br>
+<div class="container2">
+  <div class="card" *ngFor="let data of productHome">
+    <img [src]="intialImgUrl + data.imageUrl" alt="Wooden Door">
+    <h2>{{data?.productName}}</h2>
+    <p>{{data?.description}}</p>
+    <button (click)="getSelectedCategoryProduct(data?.productCategory)">View more</button>
+  </div>
+</div>
+  
+</body>
+</html>

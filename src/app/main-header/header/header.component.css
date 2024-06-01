@@ -1,0 +1,82 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 198px; /* Adjust size as needed */
+  margin-right: 224px; /* Adjust spacing between logo and search bar */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Pushes the search bar to the left as much as possible */
+}
+
+.search-bar input[type="text"] {
+  width: 300px; /* Adjust width of the search input */
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #f90;
+  border: 1px solid #f90;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #f60;
+  border-color: #f60;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.auth-link {
+  margin-left: 10px; /* Adjust spacing between login/register links */
+  text-decoration: none;
+  color: white; /* Adjust color */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-link:hover {
+  color: white; /* Adjust hover color */
+}
+
+.fa-shopping-cart {
+  margin: 0px 5px;
+  margin-left: 70px;
+}
+
+.cart-count {
+  position: absolute;
+  top: 6px; /* Adjust vertical position */
+  right: 352px; /* Adjust horizontal position */
+  background-color: #f00; /* Adjust background color */
+  color: white; /* Adjust text color */
+  border-radius: 50%; /* Make it a circle */
+  padding: 2px 8px; /* Adjust padding */
+  font-size: 12px; /* Adjust font size */
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .cart-count {
+    top: 6px; /* Adjust vertical position for smaller screens */
+    right: 352px; /* Adjust horizontal position for smaller screens */
+    font-size: 10px; /* Adjust font size for smaller screens */
+    padding: 3px 6px; /* Adjust padding for smaller screens */
+  }
+}

@@ -1,0 +1,51 @@
+body{
+  background-color: lightyellow;
+}
+.container {
+  position: relative;
+}
+
+.app-slideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Set the width of the slideshow to 100% */
+}
+
+/* Additional styling for other content in your container */
+.container2 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.card:hover {
+  background-color: darkgrey; /* Change background color on hover */
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.card p {
+  margin-top: 5px;
+  color: #666;
+}

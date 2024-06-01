@@ -1,0 +1,76 @@
+
+.error {
+  color: red;
+}
+
+.form-row {
+  margin-bottom: 15px; 
+}
+
+
+.form-group {
+  margin-bottom: 15px; 
+}
+
+
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #f90;
+  color: white; 
+  width: 20%;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+button[type="submit"]:hover {
+  background-color: #4CAF50; 
+}
+
+.body{
+  background-image:url('../../../assets/registerbackground.jpg') ;
+    background-size:auto;
+}
+
+.registerForm{
+  width: 700px;
+  height: fit-content;
+  position: relative;
+  left: 22%;
+  border: 13px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+  
+.password-input-container {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+}
+.error{
+  color: red;
+  
+}
