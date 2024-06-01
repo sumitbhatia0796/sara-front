@@ -9,7 +9,7 @@ export class ApiServiceService {
   readonly Root_URL;
 
   constructor(private http: HttpClient) {
-    this.Root_URL = 'http://localhost:3000';
+    this.Root_URL = 'http://13.233.157.16:3000';
   }
 
   private getHeaders(): HttpHeaders {
