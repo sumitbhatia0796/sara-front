@@ -13,7 +13,7 @@ import { UtillService } from 'src/app/services/utill.service';
 export class ProductDetailsComponent {
   productId:any;
   productDetails:any;
-  intialImgUrl = './../../assets/product-details-images/';
+  intialImgUrl = 'https://www.sarafurniture.info/assets/product-details-images/';
   quantity: number = 1;
   
   constructor(private ActivatedRoute:ActivatedRoute ,private CommonServiceService: CommonServiceService, private router:Router

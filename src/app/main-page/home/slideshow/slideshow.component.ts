@@ -6,7 +6,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
   styleUrls: ['./slideshow.component.css']
 })
 export class SlideshowComponent implements OnInit, OnDestroy {
-  images: string[] = ["./../../assets/first.png", "./../../assets/second.png", "./../../assets/third.png", "./../../assets/fourth.png", "./../../assets/fifth.png","./../../assets/sixth.png", "./../../assets/seven.png",];
+  images: string[] = ["https://www.sarafurniture.info/assets/first.png", "https://www.sarafurniture.info/assets/second.png", "https://www.sarafurniture.info/assets/third.png", "https://www.sarafurniture.info/assets/fourth.png", "https://www.sarafurniture.info/assets/fifth.png","https://www.sarafurniture.info/assets/sixth.png", "https://www.sarafurniture.info/assets/seven.png",];
   slideIndex = 1;
   interval: any;
 

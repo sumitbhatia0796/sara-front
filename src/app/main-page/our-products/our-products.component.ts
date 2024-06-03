@@ -44,7 +44,7 @@ throw new Error('Method not implemented.');
   categories:any;
   minValue: number = 0; 
   maxValue: number = 200000;
-  intialImgUrl = './../../assets/product/';
+  intialImgUrl = 'https://www.sarafurniture.info/assets/product/';
   homeProductCat:any;
   showProduct = false;
 ; // Define category array

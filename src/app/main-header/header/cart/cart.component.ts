@@ -19,7 +19,7 @@ export class CartComponent implements OnInit {
 
   constructor(private commonService: CommonServiceService, private utilService: UtillService) { }
 
-  initialImgUrl = './../../assets/product-details-images/';
+  initialImgUrl = 'https://www.sarafurniture.info/assets/product-details-images/';
   filterObj: any;
 
   ngOnInit(): void {
