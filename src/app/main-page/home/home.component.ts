@@ -10,7 +10,7 @@ import { UtillService } from 'src/app/services/utill.service';
 })
 export class HomeComponent {
   
-  intialImgUrl = './../../assets/';
+  intialImgUrl = 'https://www.sarafurniture.info/assets/';
   productHome: any;
   constructor(private CommonServiceService: CommonServiceService , private UtillService:UtillService
     , private _router:Router
