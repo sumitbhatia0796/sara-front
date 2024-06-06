@@ -16,7 +16,7 @@ export class HomeComponent {
     , private _router:Router
   ) { }
   ngOnInit(): void {
-    this.UtillService.show();
+   // this.UtillService.show();
    this.CommonServiceService.homeProducts().subscribe((res:any)=>{ 
     if(!!res){
       this.UtillService.hide();
