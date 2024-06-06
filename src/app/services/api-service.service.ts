@@ -18,7 +18,6 @@ export class ApiServiceService {
       'Authorization': `Bearer ${token}`
     });
   }
-
   get(url: string, params?: any): Observable<any> {
     return this.http.get(`${this.Root_URL}/api/v1/${url}`, { headers: this.getHeaders() , params: params});
   }
